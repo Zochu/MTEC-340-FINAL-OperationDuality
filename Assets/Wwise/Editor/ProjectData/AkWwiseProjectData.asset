@@ -1,0 +1,1580 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ce79750f9ac47dd98e0439005e72d8, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 92a9cc226a60934ab43f627b03eb6d11
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 92a9cc226a60934ab43f627b03eb6d11
+    GuidInternal: 
+    m_lastTime: -8585182723903268090
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1ff687948633ec4cacae84487ec06b16
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 1ff687948633ec4cacae84487ec06b16
+    GuidInternal: 
+    m_lastTime: -8585182723903340968
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1ff687948633ec4cacae84487ec06b16
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 47e260bede560445a7d70cf3861c1e1e
+    ParentPath: SoundBanks/Default Work Unit
+    guid: 47e260bede560445a7d70cf3861c1e1e
+    GuidInternal: 
+    m_lastTime: -8585182723903286236
+    List: []
+  - PhysicalPath: SoundBanks/OperationDualit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: OperationDualit
+      ObjectType: 12
+      guid: 2bba58227950d846b3f9b6b0f95be9ab
+    ParentPath: SoundBanks/OperationDualit
+    guid: 2bba58227950d846b3f9b6b0f95be9ab
+    GuidInternal: 
+    m_lastTime: -8585181899629971331
+    List:
+    - name: MainSoundBank
+      guid: b93e40374fcf7d44a765834aefa9196b
+      id: 534561221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: OperationDualit
+        ObjectType: 12
+        guid: 2bba58227950d846b3f9b6b0f95be9ab
+      - ElementName: MainSoundBank
+        ObjectType: 7
+        guid: b93e40374fcf7d44a765834aefa9196b
+      Path: SoundBanks/OperationDualit/MainSoundBank
+  EventWwu:
+  - PhysicalPath: Events/CharacterSelection.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: CharacterSelection
+      ObjectType: 12
+      guid: faa1f2413efb4f47beb0f69b58709a57
+    ParentPath: Events/CharacterSelection
+    guid: faa1f2413efb4f47beb0f69b58709a57
+    GuidInternal: 
+    m_lastTime: -8585182719552225123
+    List: []
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e04ce6008d4ded488501145472ea18f3
+    ParentPath: Events/Default Work Unit
+    guid: e04ce6008d4ded488501145472ea18f3
+    GuidInternal: 
+    m_lastTime: -8585182675585744697
+    List:
+    - name: Post_Event_LightShieldDown
+      guid: f881920057adca44862470994b941efb
+      id: 1459556180
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e04ce6008d4ded488501145472ea18f3
+      - ElementName: Post_Event_LightShieldDown
+        ObjectType: 3
+        guid: f881920057adca44862470994b941efb
+      Path: Events/Default Work Unit/Post_Event_LightShieldDown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events/MainLevel.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: MainLevel
+      ObjectType: 12
+      guid: 21917483b7ff3d449f3478dd4f60ae3c
+    ParentPath: Events/MainLevel
+    guid: 21917483b7ff3d449f3478dd4f60ae3c
+    GuidInternal: 
+    m_lastTime: -8585180841345715822
+    List:
+    - name: AmbienceStart
+      guid: b8b3280e3b88af4e83332d4eae399200
+      id: 1720073155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enviroment
+        ObjectType: 4
+        guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      - ElementName: AmbienceStart
+        ObjectType: 3
+        guid: b8b3280e3b88af4e83332d4eae399200
+      Path: Events/MainLevel/Enviroment/AmbienceStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemy
+      guid: 2d39417ceeec9d4e9492da8d3d8af2fb
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: 2d39417ceeec9d4e9492da8d3d8af2fb
+      Path: Events/MainLevel/Enemy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EnemyDie
+      guid: dbf455c8445893489f701094be39d134
+      id: 794424115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: 2d39417ceeec9d4e9492da8d3d8af2fb
+      - ElementName: EnemyDie
+        ObjectType: 3
+        guid: dbf455c8445893489f701094be39d134
+      Path: Events/MainLevel/Enemy/EnemyDie
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EnemyShoot
+      guid: 2133a809e473364180c8d2d072e6d505
+      id: 2130386168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: 2d39417ceeec9d4e9492da8d3d8af2fb
+      - ElementName: EnemyShoot
+        ObjectType: 3
+        guid: 2133a809e473364180c8d2d072e6d505
+      Path: Events/MainLevel/Enemy/EnemyShoot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enviroment
+      guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      id: 3909959462
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enviroment
+        ObjectType: 4
+        guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      Path: Events/MainLevel/Enviroment
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FanPlatform
+      guid: 55df2cf6728b31419862c30b485a366e
+      id: 1922649833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      - ElementName: FanPlatform
+        ObjectType: 3
+        guid: 55df2cf6728b31419862c30b485a366e
+      Path: Events/MainLevel/Platforms/FanPlatform
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FlipperPlatform
+      guid: 010a3cb6ec891245a2aea6b45be9c996
+      id: 1981223316
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      - ElementName: FlipperPlatform
+        ObjectType: 3
+        guid: 010a3cb6ec891245a2aea6b45be9c996
+      Path: Events/MainLevel/Platforms/FlipperPlatform
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FootStepStart
+      guid: d6175fa0f32a6247b4fded2692fe70aa
+      id: 824192661
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 55acc355eb8a62488aeabdbf92d4330a
+      - ElementName: FootStepStart
+        ObjectType: 3
+        guid: d6175fa0f32a6247b4fded2692fe70aa
+      Path: Events/MainLevel/Movement/FootStepStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FootStepStop
+      guid: 8dc347e93af54f4b8751947a0ca3056b
+      id: 2064397943
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 55acc355eb8a62488aeabdbf92d4330a
+      - ElementName: FootStepStop
+        ObjectType: 3
+        guid: 8dc347e93af54f4b8751947a0ca3056b
+      Path: Events/MainLevel/Movement/FootStepStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Health
+      guid: cd393ba34f5ccd498da4a151191bd773
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      Path: Events/MainLevel/Health
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HealthRegen
+      guid: 3a6f7823e0a99f47801a54ad258c2b84
+      id: 686534402
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      - ElementName: HealthRegen
+        ObjectType: 3
+        guid: 3a6f7823e0a99f47801a54ad258c2b84
+      Path: Events/MainLevel/Health/HealthRegen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: 5285aa3196b28a46aa6c72402caeb8f4
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 55acc355eb8a62488aeabdbf92d4330a
+      - ElementName: Jump
+        ObjectType: 3
+        guid: 5285aa3196b28a46aa6c72402caeb8f4
+      Path: Events/MainLevel/Movement/Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: JumpDouble
+      guid: 8e774a539854ca4fab42e605ea2b1b7f
+      id: 610395762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 55acc355eb8a62488aeabdbf92d4330a
+      - ElementName: JumpDouble
+        ObjectType: 3
+        guid: 8e774a539854ca4fab42e605ea2b1b7f
+      Path: Events/MainLevel/Movement/JumpDouble
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: KeyPickUp
+      guid: 94ec3c76b37c244fa75ddfdcd6f0c0c3
+      id: 1616845350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enviroment
+        ObjectType: 4
+        guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      - ElementName: KeyPickUp
+        ObjectType: 3
+        guid: 94ec3c76b37c244fa75ddfdcd6f0c0c3
+      Path: Events/MainLevel/Enviroment/KeyPickUp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LightBuff
+      guid: db8e104533a48d49a3b60f710d048a93
+      id: 2199372872
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: LightBuff
+        ObjectType: 3
+        guid: db8e104533a48d49a3b60f710d048a93
+      Path: Events/MainLevel/Skills/LightBuff
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LightBuffDown
+      guid: 86ee63733aa12448980a0db90254b56f
+      id: 657083948
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: LightBuffDown
+        ObjectType: 3
+        guid: 86ee63733aa12448980a0db90254b56f
+      Path: Events/MainLevel/Skills/LightBuffDown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LightShieldDown
+      guid: f0eb4a1440ebf74a91995eed76c3e73e
+      id: 3201278584
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: LightShieldDown
+        ObjectType: 3
+        guid: f0eb4a1440ebf74a91995eed76c3e73e
+      Path: Events/MainLevel/Skills/LightShieldDown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LightShieldUp
+      guid: 83cb91aee38e8449b24112deef7af022
+      id: 3900558107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: LightShieldUp
+        ObjectType: 3
+        guid: 83cb91aee38e8449b24112deef7af022
+      Path: Events/MainLevel/Skills/LightShieldUp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: LowHealth
+      guid: a23ee00362e97e45ae0e708829f0c2fd
+      id: 1017222595
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      - ElementName: LowHealth
+        ObjectType: 3
+        guid: a23ee00362e97e45ae0e708829f0c2fd
+      Path: Events/MainLevel/Health/LowHealth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Movement
+      guid: 55acc355eb8a62488aeabdbf92d4330a
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 55acc355eb8a62488aeabdbf92d4330a
+      Path: Events/MainLevel/Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MovingPlatform
+      guid: b98aa39f4352f845acf84ed791408c23
+      id: 1948881314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      - ElementName: MovingPlatform
+        ObjectType: 3
+        guid: b98aa39f4352f845acf84ed791408c23
+      Path: Events/MainLevel/Platforms/MovingPlatform
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: onClick
+      guid: 0bdc4e481a65ce46abb95f6647ffb3fa
+      id: 21544190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: UI
+        ObjectType: 4
+        guid: 43e1023bb1e1b44a8614641497334938
+      - ElementName: onClick
+        ObjectType: 3
+        guid: 0bdc4e481a65ce46abb95f6647ffb3fa
+      Path: Events/MainLevel/UI/onClick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: onHover
+      guid: 43116d6e5af57048859d24b7d9e62d02
+      id: 3784259780
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: UI
+        ObjectType: 4
+        guid: 43e1023bb1e1b44a8614641497334938
+      - ElementName: onHover
+        ObjectType: 3
+        guid: 43116d6e5af57048859d24b7d9e62d02
+      Path: Events/MainLevel/UI/onHover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pause
+      guid: d05b8db517b6f74eb999c566578c84ea
+      id: 3092587493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: UI
+        ObjectType: 4
+        guid: 43e1023bb1e1b44a8614641497334938
+      - ElementName: Pause
+        ObjectType: 3
+        guid: d05b8db517b6f74eb999c566578c84ea
+      Path: Events/MainLevel/UI/Pause
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Platforms
+      guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      id: 1764819763
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      Path: Events/MainLevel/Platforms
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerAmbienceStart
+      guid: 73798c8e4d844848870cdbaff347ce58
+      id: 3045495790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enviroment
+        ObjectType: 4
+        guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      - ElementName: PlayerAmbienceStart
+        ObjectType: 3
+        guid: 73798c8e4d844848870cdbaff347ce58
+      Path: Events/MainLevel/Enviroment/PlayerAmbienceStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerDead
+      guid: 9bdde9ef24ba97438da61c055f3cb013
+      id: 2356585300
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      - ElementName: PlayerDead
+        ObjectType: 3
+        guid: 9bdde9ef24ba97438da61c055f3cb013
+      Path: Events/MainLevel/Health/PlayerDead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerReset
+      guid: 93cba7d48db82845b5ff530ee0ce062b
+      id: 644341835
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      - ElementName: PlayerReset
+        ObjectType: 3
+        guid: 93cba7d48db82845b5ff530ee0ce062b
+      Path: Events/MainLevel/Health/PlayerReset
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ProjectorOn
+      guid: 30aa84f448083244a4253ac43430a0db
+      id: 4294385764
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Enviroment
+        ObjectType: 4
+        guid: d4c7a7c9b5f0d94388d55d160fbbf4b1
+      - ElementName: ProjectorOn
+        ObjectType: 3
+        guid: 30aa84f448083244a4253ac43430a0db
+      Path: Events/MainLevel/Enviroment/ProjectorOn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Reload
+      guid: 60467e70b08abd4ca3b62fe0cb284e5f
+      id: 456382354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      - ElementName: Reload
+        ObjectType: 3
+        guid: 60467e70b08abd4ca3b62fe0cb284e5f
+      Path: Events/MainLevel/Weapon/Reload
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ReloadDone
+      guid: 0f113806983f6144815051252acbddbe
+      id: 4051456586
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      - ElementName: ReloadDone
+        ObjectType: 3
+        guid: 0f113806983f6144815051252acbddbe
+      Path: Events/MainLevel/Weapon/ReloadDone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ShadowBuffEnd
+      guid: b676ae279f1e9f47903fedbe051379b6
+      id: 3683447373
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: ShadowBuffEnd
+        ObjectType: 3
+        guid: b676ae279f1e9f47903fedbe051379b6
+      Path: Events/MainLevel/Skills/ShadowBuffEnd
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ShadowBuffStart
+      guid: 0c1fd4dc02aba3468008f814a293d00d
+      id: 2416431302
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: ShadowBuffStart
+        ObjectType: 3
+        guid: 0c1fd4dc02aba3468008f814a293d00d
+      Path: Events/MainLevel/Skills/ShadowBuffStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ShadowTeleport
+      guid: 1badc4f9efc4214cba6bc1f243a75a56
+      id: 914888896
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      - ElementName: ShadowTeleport
+        ObjectType: 3
+        guid: 1badc4f9efc4214cba6bc1f243a75a56
+      Path: Events/MainLevel/Skills/ShadowTeleport
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Shoot
+      guid: 9209dd692c6a4747861808024e65aba0
+      id: 3038207054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      - ElementName: Shoot
+        ObjectType: 3
+        guid: 9209dd692c6a4747861808024e65aba0
+      Path: Events/MainLevel/Weapon/Shoot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Skills
+      guid: ee1c32d28b271c4896d830e4c053d525
+      id: 2368840039
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Skills
+        ObjectType: 4
+        guid: ee1c32d28b271c4896d830e4c053d525
+      Path: Events/MainLevel/Skills
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SlidePlatform
+      guid: d4d51179aa46cc43aa6aaea48890825b
+      id: 3460734889
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      - ElementName: SlidePlatform
+        ObjectType: 3
+        guid: d4d51179aa46cc43aa6aaea48890825b
+      Path: Events/MainLevel/Platforms/SlidePlatform
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SpringPlatform
+      guid: 7ea78bd2c0f56a4386751d46fc0fdb02
+      id: 2890004375
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Platforms
+        ObjectType: 4
+        guid: 8f1c0cd27e61174a8bf975a40571d0d8
+      - ElementName: SpringPlatform
+        ObjectType: 3
+        guid: 7ea78bd2c0f56a4386751d46fc0fdb02
+      Path: Events/MainLevel/Platforms/SpringPlatform
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: StopAll
+      guid: f65dfc42025018418f836b724206b7ee
+      id: 3086540886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: StopAll
+        ObjectType: 3
+        guid: f65dfc42025018418f836b724206b7ee
+      Path: Events/MainLevel/StopAll
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TakeDamage
+      guid: 0dfc9b043a5b304da1297b224732d0e8
+      id: 2784187423
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Health
+        ObjectType: 4
+        guid: cd393ba34f5ccd498da4a151191bd773
+      - ElementName: TakeDamage
+        ObjectType: 3
+        guid: 0dfc9b043a5b304da1297b224732d0e8
+      Path: Events/MainLevel/Health/TakeDamage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: 43e1023bb1e1b44a8614641497334938
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: UI
+        ObjectType: 4
+        guid: 43e1023bb1e1b44a8614641497334938
+      Path: Events/MainLevel/UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnPause
+      guid: 3e7c8d47cca1794b9403f2600a3a2482
+      id: 3412868374
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: UI
+        ObjectType: 4
+        guid: 43e1023bb1e1b44a8614641497334938
+      - ElementName: UnPause
+        ObjectType: 3
+        guid: 3e7c8d47cca1794b9403f2600a3a2482
+      Path: Events/MainLevel/UI/UnPause
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WaponDrop
+      guid: 9c2f67314b6b8049a1669472f279f977
+      id: 1629544899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      - ElementName: WaponDrop
+        ObjectType: 3
+        guid: 9c2f67314b6b8049a1669472f279f977
+      Path: Events/MainLevel/Weapon/WaponDrop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Weapon
+      guid: 20ed4e25ded4104a81074211c2548ee4
+      id: 3893417221
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      Path: Events/MainLevel/Weapon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: WeaponPickUp
+      guid: 44c65de6ca1ef641b5cffcd66ded9cf7
+      id: 2883364373
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainLevel
+        ObjectType: 12
+        guid: 21917483b7ff3d449f3478dd4f60ae3c
+      - ElementName: Weapon
+        ObjectType: 4
+        guid: 20ed4e25ded4104a81074211c2548ee4
+      - ElementName: WeaponPickUp
+        ObjectType: 3
+        guid: 44c65de6ca1ef641b5cffcd66ded9cf7
+      Path: Events/MainLevel/Weapon/WeaponPickUp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events/StartMenu.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: StartMenu
+      ObjectType: 12
+      guid: 4fc761b1ad506a4fb28eca340bf55090
+    ParentPath: Events/StartMenu
+    guid: 4fc761b1ad506a4fb28eca340bf55090
+    GuidInternal: 
+    m_lastTime: -8585180855674870536
+    List: []
+  - PhysicalPath: Events/Tutorial.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Tutorial
+      ObjectType: 12
+      guid: ff19215d639d03429eb46698f4e48e92
+    ParentPath: Events/Tutorial
+    guid: ff19215d639d03429eb46698f4e48e92
+    GuidInternal: 
+    m_lastTime: -8585182719263088130
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9eb37d902adf2a429e6f78cc664c52ac
+    ParentPath: Game Parameters/Default Work Unit
+    guid: 9eb37d902adf2a429e6f78cc664c52ac
+    GuidInternal: 
+    m_lastTime: -8585182691690237976
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bd9e1441fcac9d4eaea4c43aab85fb7d
+    ParentPath: States/Default Work Unit
+    guid: bd9e1441fcac9d4eaea4c43aab85fb7d
+    GuidInternal: 
+    m_lastTime: -8585182666943286841
+    List: []
+  - PhysicalPath: States/PlayerStates.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PlayerStates
+      ObjectType: 12
+      guid: c7afc490a2aa89429dc89031f77d62a2
+    ParentPath: States/PlayerStates
+    guid: c7afc490a2aa89429dc89031f77d62a2
+    GuidInternal: 
+    m_lastTime: -8585182666943219429
+    List:
+    - name: BuffSkill
+      guid: 676428426f36044dab65ef02c061f55d
+      id: 1022669649
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PlayerStates
+        ObjectType: 12
+        guid: c7afc490a2aa89429dc89031f77d62a2
+      - ElementName: BuffSkill
+        ObjectType: 9
+        guid: 676428426f36044dab65ef02c061f55d
+      Path: States/PlayerStates/BuffSkill
+      values:
+      - name: noBuff
+        guid: 331cc28f3b2da74889449920c1a9b4c2
+        id: 1145350591
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: BuffSkill
+          ObjectType: 9
+          guid: 676428426f36044dab65ef02c061f55d
+        - ElementName: noBuff
+          ObjectType: 8
+          guid: 331cc28f3b2da74889449920c1a9b4c2
+      - name: None
+        guid: ced0ad661cae8442afb95f3c6cd7ddba
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: BuffSkill
+          ObjectType: 9
+          guid: 676428426f36044dab65ef02c061f55d
+        - ElementName: None
+          ObjectType: 8
+          guid: ced0ad661cae8442afb95f3c6cd7ddba
+      - name: onBuff
+        guid: 9f16c08e5313a7438971669480f7868a
+        id: 1195699893
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: BuffSkill
+          ObjectType: 9
+          guid: 676428426f36044dab65ef02c061f55d
+        - ElementName: onBuff
+          ObjectType: 8
+          guid: 9f16c08e5313a7438971669480f7868a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: HealthState
+      guid: cbf64f3065ffcc40b8cf06b8d30ddab8
+      id: 43109054
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PlayerStates
+        ObjectType: 12
+        guid: c7afc490a2aa89429dc89031f77d62a2
+      - ElementName: HealthState
+        ObjectType: 9
+        guid: cbf64f3065ffcc40b8cf06b8d30ddab8
+      Path: States/PlayerStates/HealthState
+      values:
+      - name: HealthOK
+        guid: 313e0d558bbfd74997b7a58ac4941f7b
+        id: 2965683241
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: HealthState
+          ObjectType: 9
+          guid: cbf64f3065ffcc40b8cf06b8d30ddab8
+        - ElementName: HealthOK
+          ObjectType: 8
+          guid: 313e0d558bbfd74997b7a58ac4941f7b
+      - name: LowHealth
+        guid: 37765529fc28ff46a4e6f87552aae4ba
+        id: 1017222595
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: HealthState
+          ObjectType: 9
+          guid: cbf64f3065ffcc40b8cf06b8d30ddab8
+        - ElementName: LowHealth
+          ObjectType: 8
+          guid: 37765529fc28ff46a4e6f87552aae4ba
+      - name: None
+        guid: 7655388756b57b47bd919f73ad334137
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PlayerStates
+          ObjectType: 12
+          guid: c7afc490a2aa89429dc89031f77d62a2
+        - ElementName: HealthState
+          ObjectType: 9
+          guid: cbf64f3065ffcc40b8cf06b8d30ddab8
+        - ElementName: None
+          ObjectType: 8
+          guid: 7655388756b57b47bd919f73ad334137
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 575db5875d87414bab1f97100f5904d9
+    ParentPath: Switches/Default Work Unit
+    guid: 575db5875d87414bab1f97100f5904d9
+    GuidInternal: 
+    m_lastTime: -8585182723903274617
+    List: []
+  - PhysicalPath: Switches/Player.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Player
+      ObjectType: 12
+      guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+    ParentPath: Switches/Player
+    guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+    GuidInternal: 
+    m_lastTime: -8585182668118863426
+    List:
+    - name: FootSwitch
+      guid: 14875620a18e6b4d92ba42d59e62df0e
+      id: 2285840829
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+      - ElementName: FootSwitch
+        ObjectType: 11
+        guid: 14875620a18e6b4d92ba42d59e62df0e
+      Path: Switches/Player/FootSwitch
+      values:
+      - name: Regular
+        guid: 0c3889430783204f8b1cbd45cf575c53
+        id: 2628937827
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: FootSwitch
+          ObjectType: 11
+          guid: 14875620a18e6b4d92ba42d59e62df0e
+        - ElementName: Regular
+          ObjectType: 10
+          guid: 0c3889430783204f8b1cbd45cf575c53
+      - name: WallRun
+        guid: c260e088400a6e49929472636eda3c32
+        id: 202094804
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: FootSwitch
+          ObjectType: 11
+          guid: 14875620a18e6b4d92ba42d59e62df0e
+        - ElementName: WallRun
+          ObjectType: 10
+          guid: c260e088400a6e49929472636eda3c32
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: FootWeaponSwitch
+      guid: 48a2979603d0ab4b94d03701966ea6a8
+      id: 3119421021
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+      - ElementName: FootWeaponSwitch
+        ObjectType: 11
+        guid: 48a2979603d0ab4b94d03701966ea6a8
+      Path: Switches/Player/FootWeaponSwitch
+      values:
+      - name: hasWeapon
+        guid: bbe0f971fe00f54289626fa280c415e2
+        id: 1385920355
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: FootWeaponSwitch
+          ObjectType: 11
+          guid: 48a2979603d0ab4b94d03701966ea6a8
+        - ElementName: hasWeapon
+          ObjectType: 10
+          guid: bbe0f971fe00f54289626fa280c415e2
+      - name: noWeapon
+        guid: bff61819e1defc49b83c2868bf8abaa4
+        id: 1072509240
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: FootWeaponSwitch
+          ObjectType: 11
+          guid: 48a2979603d0ab4b94d03701966ea6a8
+        - ElementName: noWeapon
+          ObjectType: 10
+          guid: bff61819e1defc49b83c2868bf8abaa4
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PauseSwith
+      guid: 7c610a545275cd47a5da74f0c172a156
+      id: 5197044
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+      - ElementName: PauseSwith
+        ObjectType: 11
+        guid: 7c610a545275cd47a5da74f0c172a156
+      Path: Switches/Player/PauseSwith
+      values:
+      - name: Pause
+        guid: 9d5b1d4e0395b24dafd86d4ee9e25e68
+        id: 3092587493
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: PauseSwith
+          ObjectType: 11
+          guid: 7c610a545275cd47a5da74f0c172a156
+        - ElementName: Pause
+          ObjectType: 10
+          guid: 9d5b1d4e0395b24dafd86d4ee9e25e68
+      - name: UnPause
+        guid: 148830ed251cbc42877a6e57b5613edb
+        id: 3412868374
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: PauseSwith
+          ObjectType: 11
+          guid: 7c610a545275cd47a5da74f0c172a156
+        - ElementName: UnPause
+          ObjectType: 10
+          guid: 148830ed251cbc42877a6e57b5613edb
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WeaponMagzine
+      guid: c169554a84a0e241b14228a4e62e052b
+      id: 956060894
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+      - ElementName: WeaponMagzine
+        ObjectType: 11
+        guid: c169554a84a0e241b14228a4e62e052b
+      Path: Switches/Player/WeaponMagzine
+      values:
+      - name: empty
+        guid: 0c8b62bba3b493438558e4d56ab17c9b
+        id: 3354297748
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: WeaponMagzine
+          ObjectType: 11
+          guid: c169554a84a0e241b14228a4e62e052b
+        - ElementName: empty
+          ObjectType: 10
+          guid: 0c8b62bba3b493438558e4d56ab17c9b
+      - name: hasBullet
+        guid: de94bc4d075b024e8860de53851a0127
+        id: 3258916203
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: WeaponMagzine
+          ObjectType: 11
+          guid: c169554a84a0e241b14228a4e62e052b
+        - ElementName: hasBullet
+          ObjectType: 10
+          guid: de94bc4d075b024e8860de53851a0127
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WeaponType
+      guid: be6b2b638579924e961ec0443c3ebbfc
+      id: 767731869
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+      - ElementName: WeaponType
+        ObjectType: 11
+        guid: be6b2b638579924e961ec0443c3ebbfc
+      Path: Switches/Player/WeaponType
+      values:
+      - name: Pistol
+        guid: 9088d04fd2cca1439519461b566bf0c8
+        id: 324443136
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: WeaponType
+          ObjectType: 11
+          guid: be6b2b638579924e961ec0443c3ebbfc
+        - ElementName: Pistol
+          ObjectType: 10
+          guid: 9088d04fd2cca1439519461b566bf0c8
+      - name: Rifle
+        guid: 9e491349ed8d4342a23bba8879e5ab4f
+        id: 4262674733
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: WeaponType
+          ObjectType: 11
+          guid: be6b2b638579924e961ec0443c3ebbfc
+        - ElementName: Rifle
+          ObjectType: 10
+          guid: 9e491349ed8d4342a23bba8879e5ab4f
+      - name: Shotgun
+        guid: fe1273ca462e6149af631398047c92d5
+        id: 51683977
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Player
+          ObjectType: 12
+          guid: 3aad7556c1fa5b4a97a6c37570b4f57d
+        - ElementName: WeaponType
+          ObjectType: 11
+          guid: be6b2b638579924e961ec0443c3ebbfc
+        - ElementName: Shotgun
+          ObjectType: 10
+          guid: fe1273ca462e6149af631398047c92d5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c68010dcfb94a745b3c613b86a54d9e4
+    ParentPath: Triggers/Default Work Unit
+    guid: c68010dcfb94a745b3c613b86a54d9e4
+    GuidInternal: 
+    m_lastTime: -8585182723903271228
+    List: []
+  - PhysicalPath: Triggers/Health.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Health
+      ObjectType: 12
+      guid: 6b496de4cfe4d540be64688f8f453240
+    ParentPath: Triggers/Health
+    guid: 6b496de4cfe4d540be64688f8f453240
+    GuidInternal: 
+    m_lastTime: -8585182691690091452
+    List:
+    - name: HelathRegen
+      guid: dfd374f6f76e9b438f0b5f8cd427879d
+      id: 788128680
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Health
+        ObjectType: 12
+        guid: 6b496de4cfe4d540be64688f8f453240
+      - ElementName: HelathRegen
+        ObjectType: 14
+        guid: dfd374f6f76e9b438f0b5f8cd427879d
+      Path: Triggers/Health/HelathRegen
+    - name: LowHealth
+      guid: fd3360015385f9498b0a87a7d15f56d2
+      id: 1017222595
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Health
+        ObjectType: 12
+        guid: 6b496de4cfe4d540be64688f8f453240
+      - ElementName: LowHealth
+        ObjectType: 14
+        guid: fd3360015385f9498b0a87a7d15f56d2
+      Path: Triggers/Health/LowHealth
+  ExpandedFileSystemItemIds: 020000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000190000001b0000001d0000001f0000002200000023000000240000002f00000030000000360000003700000038000000390000004200000045000000
+  ExpandedWaapiItemIds: 02000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000190000001b0000001d0000001f0000002300000024000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 

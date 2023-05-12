@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Operation Duality_WwiseProject" GUID="{03B18D36-1115-443C-A2F3-D55DFDC93896}" Generator="2022.1.4.8200"/>
+	<CacheRoot>../../../../Operation Duality_WwiseProject/.cache/</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{EE317FE2-B59E-4ACE-A6A3-B2C65020462B}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Operation Duality_WwiseProject/GeneratedSoundBanks/Mac/"/>
+		<Platform Name="Windows" GUID="{8ACCC7EF-0129-46B3-BBED-FAB5F1A8AEF3}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Operation Duality_WwiseProject/GeneratedSoundBanks/Windows/"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F8716718-B81A-4915-B363-1EAAE24F3F6B}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{6A14D902-7E35-8E74-530A-43FF0086A84C}</FileHash>
+</ProjectInfo>

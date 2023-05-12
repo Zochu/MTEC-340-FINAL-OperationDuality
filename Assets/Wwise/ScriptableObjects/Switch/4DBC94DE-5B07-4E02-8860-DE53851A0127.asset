@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cf7bd4d68494d7f8fc7aee3a9d47b0, type: 3}
+  m_Name: 4DBC94DE-5B07-4E02-8860-DE53851A0127
+  m_EditorClassIdentifier: 
+  objectName: hasBullet
+  id: 3258916203
+  guid: 4DBC94DE-5B07-4E02-8860-DE53851A0127
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 703fd6a7890d548b79944245cc88bb5d, type: 2}
